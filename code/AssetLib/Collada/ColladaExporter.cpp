@@ -270,7 +270,7 @@ void ColladaExporter::WriteHeader() {
         mAdd_root_node = true;
     }
 
-    // Assimp root nodes can have meshes, Collada Scenes cannot
+    // Assimp root nodes can have meshes, Collada Assets cannot
     if (mScene->mRootNode->mNumChildren == 0 || mScene->mRootNode->mMeshes != nullptr) {
         mAdd_root_node = true;
     }

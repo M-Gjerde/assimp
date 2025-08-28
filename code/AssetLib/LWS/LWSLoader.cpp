@@ -473,7 +473,7 @@ std::string LWSImporter::FindLWOFile(const std::string &in) {
 
     // Relevant for us are the following two directories:
     // <folder>\Objects\<hh>\<*>.lwo
-    // <folder>\Scenes\<hh>\<*>.lws
+    // <folder>\Assets\<hh>\<*>.lws
     // where <hh> is optional.
 
     std::string test = std::string("..") + (io->getOsSeparator() + tmp);
